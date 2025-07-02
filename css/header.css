@@ -1,0 +1,130 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 57px;
+    background-color: #c2c2c258;
+    backdrop-filter: blur(10px);
+    z-index: 10;
+    transition: .5s all ease-in;
+    margin-bottom: 20px;
+    /* background-color: #02353c; */
+}
+
+.head-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:1024px) {          /*meeken thama damme optimiz eeke gaana wenas krnn set wena widihat */
+  .head-container {
+    width: min(100%,950px);
+    padding-right: 0%;
+    padding-left: 0%;
+    margin: 0 2px 0 2px;
+  }
+}
+
+.head-container > .head-sector{
+    position: relative;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.head-container > .head-sector > .logo > img{
+    top: 5px;
+    height: 60px;
+    width: auto;
+    margin: 00 0px;
+}
+
+section{
+    position: fixed;
+    display: flex;
+    left: 30px;
+    height: 250px;
+    width: 250px;
+    clip-path: polygon(0 0, 100% 0, 100% 54%, 0 95%);
+    background-color: #9c9c9c;
+    z-index: 100;
+    transition: .5s all ease-in;
+    transform: translateY(-100%);
+    text-align: right;
+  }
+  
+
+  .logger{
+    width: auto;
+    margin: auto;
+    margin-top: 4px;
+    margin-left: 20px;
+    transition: .9s all ease;
+  }
+
+  .logger:hover{
+    /* background-color: rgb(255, 0, 0); */
+    color: rgb(252, 9, 9);
+    opacity: 50%;
+
+  }
+
+  .navigation ul{
+    text-align: right;
+    margin-right: 20px;
+  }
+
+  .navigation ul li{
+    font-family: Plateia;
+    color: #000000;
+    list-style: none;
+    float: left;
+    padding: 5px 5px;
+    margin-top: auto;
+    cursor: pointer;
+    transition: .9s all ease-in-out;
+    letter-spacing: 2px;
+}
+
+.button {
+	display: flex;
+	height: 35px;
+  margin-right: 20px;
+	padding: 7px;
+  padding-left: 15px;
+  padding-right: 15px;
+	background: #600000;
+	border: none;
+	outline: none;
+	border-radius: 8px;
+	overflow: hidden;
+	font-family: Calibri;
+	font-size: 16px;
+	font-weight: 500;
+  color: aliceblue;
+	cursor: pointer;
+  transition: .9s all ease-in-out;
+}
+
+.button:hover {
+	background: #810000;
+}
+
+.button:active {
+	background: #db4949;
+}
+
+.button__icon {
+	font-size: 1.5em;
+	background: rgba(0, 0, 0, 0.08);
+}

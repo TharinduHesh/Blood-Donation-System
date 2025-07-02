@@ -1,0 +1,355 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+@media screen and (max-width:1024px) {          /*meeken thama damme optimiz eeke gaana wenas krnn set wena widihat */
+  body {
+    width: min(100%,950px);
+    padding-right: 0%;
+    padding-left: 0%;
+    margin: 0 2px 0 2px;
+  }
+}
+
+header{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 57px;
+    background-color: #c2c2c2;
+    z-index: 10;
+    transition: .5s all ease-in;
+    margin-bottom: 20px;
+    /* background-color: #02353c; */
+}
+
+.head-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head-container > .head-sector{
+    position: relative;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.head-container > .head-sector > .logo > img{
+    top: 5px;
+    height: 60px;
+    width: auto;
+    margin: 00 0px;
+}
+
+section{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    left: 30px;
+    height: 250px;
+    width: 250px;
+    clip-path: polygon(0 0, 100% 0, 100% 54%, 0 95%);
+    background-color: #9c9c9c;
+    z-index: 100;
+    transition: .5s all ease-in;
+    transform: translateY(-100%);
+  }
+
+  .logger{
+    width: auto;
+    margin: auto;
+    margin-top: 4px;
+    margin-left: 20px;
+    transition: .9s all ease;
+  }
+
+  .logger:hover{
+    /* background-color: rgb(255, 0, 0); */
+    color: rgb(252, 9, 9);
+    opacity: 50%;
+
+  }
+
+  .navigation ul li{
+    font-family: plateia;
+    color: #01290a;
+    list-style: none;
+    float: left;
+    padding: 5px 5px;
+    margin-top: auto;
+    cursor: pointer;
+    transition: .9s all ease-in-out;
+    letter-spacing: 2px;
+}
+
+.slideshow {
+    top: 0;
+    width: 100%;
+    height: 100px;
+    border-radius: 0px;
+    position: relative;
+    margin-top: 0px;
+    filter: brightness(0.9);
+    animation: transitionIn 0.7s;
+  }
+
+  @keyframes transitionIn{
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+   
+  }
+
+  
+  
+  /* The dots/bullets/indicators */
+  
+  .text {
+    color: #5f5d5d;
+    font-family: Plateia;
+    font-size: 20px;
+    /* padding: 35px 20px; */
+    position: absolute;
+    margin-left: 670px;
+    top: 460px;
+    cursor: pointer;
+    transition: .9s all ease-in-out;}
+
+    .text2 {
+      color: #ffffff;
+      font-family: Plateia;
+      font-size: 50px;
+      text-align: center;
+      padding: 8px 12px;
+      position: absolute;
+      margin-left: 400px;
+      top: 150px;
+      cursor: pointer;
+    }
+
+  .text:hover {
+    color: rgb(255, 255, 255);
+    opacity: 80%;
+  }
+
+  .beacons{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 5px;
+  }
+
+  .dot{
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 1s ease;
+  }
+  
+  .active, .dot:hover{
+    background-color: #717171;
+    transform: scale(1.1);
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 3s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  .imgcontainer {
+    margin-top: 450px;
+    margin-left: 160px;
+    margin-bottom: 20px;
+  }
+
+.imgcontainer img {
+  margin-right: 160px;
+  width: 30%;
+  height: 30%;
+  float: right;
+}
+
+.imgcontainer .we {
+  margin-top: 20px;
+  margin-bottom: 200px;
+  font-family: arial;
+  font-size: 18px;
+}
+
+.imgcontainer h2 {
+  font-family: poppins;
+  font-size: 26px;
+}
+
+.imgcontainer a {
+  text-decoration: none;
+  transition: .9s all ease-in-out;
+}
+
+.imgcontainer a:hover {
+  color: rgb(244, 58, 58);
+}
+
+.textcontain {
+  margin-bottom: 400px;
+  padding: 30px;
+  transition: background-color 1s ease;
+}
+
+.one {
+  margin-left: 60px;
+  background-color: #ffffff;
+  width: 27%;
+  
+  float: left;
+  border-radius: 4%;
+  border: 2px solid rgba(255, 255, 255, .2);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+  transition: background-color 1s ease;
+}
+
+
+
+.two {
+  margin-right: 60px;
+  background-color: #ffffff;
+  width: 27%;
+  float: right;
+  border-radius: 4%;
+  border: 2px solid rgba(255, 255, 255, .2);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+  transition: background-color 1s ease;
+}
+
+.three {
+  background-color: #ffffff;
+  width: 27%;
+  margin: 0 auto;
+  border-radius: 4%;
+  border: 2px solid rgba(255, 255, 255, .2);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+  transition: background-color 1s ease;
+}
+
+.one img {
+  width: 70%;
+  height: 70%;
+  margin: auto;
+  display: block;
+  padding-top: 20px;
+}
+
+.one p {
+  text-align: center;
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  font-family: arial;
+  font-size: 16px;
+}
+
+.one h2 {
+  font-family: poppins;
+  font-size: 19px;
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(199, 4, 4);
+}
+
+.two img {
+  width: 70%;
+  height: 70%;
+  margin: auto;
+  display: block;
+  padding-top: 20px;
+}
+
+.two p {
+  text-align: center;
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  font-family: arial;
+  font-size: 16px;
+}
+
+.two h2 {
+  font-family: poppins;
+  font-size: 19px;
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(199, 4, 4);
+}
+
+.three img {
+  width: 70%;
+  height: 70%;
+  margin: auto;
+  display: block;
+  padding-top: 20px;
+}
+
+.three p {
+  text-align: center;
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  font-family: arial;
+  font-size: 16px;
+}
+
+.three h2 {
+  font-family: poppins;
+  font-size: 19px;
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(199, 4, 4);
+}
+
+.one:hover{
+  background-color: rgb(255, 214, 214);
+}
+
+.two:hover{
+  background-color: rgb(255, 214, 214);
+}
+
+.three:hover{
+  background-color: rgb(255, 214, 214);
+}
+
+

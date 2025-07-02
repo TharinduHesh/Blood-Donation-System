@@ -1,0 +1,24 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.parag{
+    font-family: poppins;
+    margin-top: 100px;
+    animation: transitionIn 0.9s;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+@keyframes transitionIn{
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}

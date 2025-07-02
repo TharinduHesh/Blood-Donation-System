@@ -1,0 +1,63 @@
+.div2{
+    margin-top: 100px;
+    margin-bottom: 1200px;
+}
+
+.div3{
+    
+    font-family: calibri;
+    float: left;
+    width:21%;
+    height: fit-content;
+    display: block;
+    margin: 10px;
+    box-shadow: 10px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 5px;
+
+    
+}
+
+.topic{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.div4{
+
+    float:left;
+    height: fit-content;
+    width:23%;
+    display: block;
+    margin: 10px 0px 10px 10px;
+    box-shadow: 1px;
+    background-color: rgb(238, 235, 230);
+    
+}
+.div5{
+    float:left;
+    height: fit-content;
+    width:23%;
+    display: block;
+    margin: 10px 0px 10px 10px;
+    box-shadow: 0.5px;
+   background-color: rgb(238, 235, 230);
+}
+.div6{
+    float:left;
+    height: fit-content;
+    display: block;
+    width: 23%;
+    box-shadow: 0.5px;
+    background-color: rgb(238, 235, 230);
+   
+    
+}
+
+.bottomImage{
+    margin-bottom: 200px;
+}
+

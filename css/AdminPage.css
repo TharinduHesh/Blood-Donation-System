@@ -1,0 +1,362 @@
+*{
+    font-family: poppins;
+}
+
+.body{
+    background-color: #efd7d2;
+}
+
+.main::after{
+    content: "";
+    display: table;
+    clear: both;   
+} 
+
+.main{
+    margin-top: 100px;
+}
+
+.div1{
+    height: 30vh;
+    width: 20.5%;
+    float: left;
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 0.5%;
+}
+
+.div1-1{
+    background-color: rgb(234, 222, 222);
+    padding: 2%;
+    color: rgb(244, 244, 244);
+    height: 100%;
+    border: solid 1px;
+    border-radius: 5px;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    
+}
+
+.div1-2{
+    /* background-color: rgb(124, 18, 18); */
+    height: 10vh;
+}
+
+.div1-3{
+    background-color: rgb(36, 66, 177); 
+    height: 20vh;
+    width: 20vh;
+}
+
+.div1-4{
+    /* background-color: rgb(6, 10, 23);  */
+    height: 30px;
+    width: 97%;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 5px;
+}
+
+.div2{
+    /* background-color: yellowgreen; */
+    height: 50vh;
+    width: 63.5%;
+    float: left;
+    padding-right: 5%;
+    padding-left: 0.5%;
+    padding-top: 2%;
+}
+
+.div2-1{
+    background-color: rgb(234, 222, 222);
+    padding: 2%;
+    height: 4vh;
+    background: transparent;
+    border-radius: 5px;
+    align-items: center;
+    margin: 10px;
+}
+
+.div2-2-1{
+    background-color: rgb(234, 222, 222);
+    height: 100%;
+    width: 47%;
+    padding: 0 1%;
+    float: left;
+    border: solid 1px white;
+    border-radius: 5px;
+    overflow-y: scroll;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.div2-2-2{
+    background-color: rgb(234, 222, 222);
+    height: 100%;
+    width: 47%;
+    padding: 0 1%;
+    float: left;
+    border: solid 1px;
+    border-radius: 5px;
+    overflow-y: scroll;
+    float: inline-end;
+    border: solid 1px white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.div2-2{
+    /* background-color: rgb(74, 208, 192); */
+    height: 300px;
+    
+}
+
+.div2-3{
+    background-color: rgb(234, 222, 222);
+    height: 40vh;
+    border: solid 1px;
+    border-radius: 5px;
+    margin: 10px 0 10px 0;
+    padding: 5px;
+    border: solid 1px white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.div2-3-1{
+    /* background-color: rgba(39, 146, 135, 0.418); */
+    height: 25px;
+    text-align: center;
+    color: #4a0e05;
+    font-weight: 900;
+}
+
+
+.div2-3-2{
+    /* background-color: rgb(124, 97, 36); */
+    height: 40px;
+    
+}    
+
+.div2-3-2-1{
+    /* background-color: #4d23f3; */
+    width: 46%;
+    float: left;
+    padding: 2%;
+}
+
+.input{
+    width: 100px;
+    height: 20px;
+    border: solid 1px white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+.div2-3-2-2{
+    /* background-color: #3d316f; */
+    width: 46%;
+    float: left;
+    padding: 2%;
+}
+
+.Search{
+    width: 85%;
+    height: 20px;
+    padding: 5px 10px;
+    right: 0;
+    border: solid 1px white;
+    border-radius: 50px;
+}
+
+::placeholder {
+    text-align: center;
+    color: #4a0e05;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.div2-3-3{
+    background-color: rgb(236, 208, 187);
+    height: 155px;
+    border: solid 1px;
+    border-radius: 5px;
+    overflow-y: scroll;
+}
+
+.div2-3-4{
+    /* background-color: rgb(255, 0, 225); */
+    height: 30px;
+    width: 98%;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 5px;
+}
+
+.div2-3-4-1{
+    float: left;
+}
+
+.div2-3-4-2{
+    float: left;
+}
+
+.div2-3-4-3{
+    float: right;
+}
+
+.div2-4{
+    background-color: rgb(234, 222, 222);
+    height: 40vh;
+    border: solid 1px;
+    border-radius: 5px;
+    margin: 10px 0 10px 0;
+    padding: 5px;
+    border: solid 1px white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+ .table th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+ .table tr:hover {background-color: rgba(247, 247, 247, 0.633);}
+
+.DeleteBtn{
+    width: 55px;
+    height: 30px;
+    background-color: #de3015;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 12px;
+    color: rgb(35, 3, 3);
+    font-weight: 600;
+    float: inline-end;
+}
+
+.ADDBtn{
+    width: 100px;
+    height: 30px;
+    background-color: #f5959550;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 12px;
+    color: rgb(35, 3, 3);
+    font-weight: 600;
+    float: inline-start;
+}
+
+.EDITBtn{
+    width: 49%;
+    height: 30px;
+    background-color: #f5959550;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 12px;
+    color: rgb(35, 3, 3);
+    font-weight: 600;
+    float: inline-start;
+    margin: 0 1px;
+}
+
+.EDITBtn1{
+    width: 100px;
+    height: 30px;
+    background-color: #f5959550;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 12px;
+    color: rgb(35, 3, 3);
+    font-weight: 600;
+    float: inline-start;
+    margin: 0 1px;
+}
+
+.EDITBtn2{
+    width: 100px;
+    height: 30px;
+    background-color: #f5959550;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 12px;
+    color: rgb(35, 3, 3);
+    font-weight: 600;
+    float: inline-start;
+    margin: 0 1px;
+}
+
+.SaveBtn{
+    width: 50%;
+    height: 30px;
+    background-color: #e6eed5;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 12px;
+    color: rgb(35, 3, 3);
+    font-weight: 600;
+    float: inline-end;
+    margin: 0;
+
+}
+
+.LogBtn{
+    width: 50px;
+    height: 30px;
+    background-color: #eacc36;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 12px;
+    color: rgb(35, 3, 3);
+    font-weight: 600;
+    float: left;
+}
+
+@media screen and (max-width:1024px) {          /*meeken thama damme optimiz eeke gaana wenas krnn set wena widihat */
+    .div1 {
+      width: min(100%,950px);
+      padding-right: 0%;
+      padding-left: 0%;
+      margin: 0 2px 0 2px;
+    }
+}
+
+@media screen and (max-width:1024px) {          /*meeken thama damme optimiz eeke gaana wenas krnn set wena widihat */
+    .div2 {
+      width: min(100%,950px);
+      padding-right: 0%;
+      padding-left: 0%;
+      margin: 0 2px 0 2px;
+    }
+}
+
+.h2{
+    margin: 0;
+    float: left;
+    color: #4a0e05;
+}
+
+.h2{
+    margin: 0;
+    float: left;
+    color: #4a0e05;
+}
+
+.p1{
+    color: rgb(35, 3, 3);
+    font-weight: 600;
+}

@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.subdiv img{
+    width: 120px;
+    height: 120px;
+    margin-top: 40px;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0 , 0, .5);
+
+}
+
+.subdiv{
+    float: left;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    background-color: white;
+    font-family: calibri;
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0 , 0, .3);
+    width: 300px;
+    height: 470px;
+    margin-top: 100px;
+    margin-left: 100px;
+    
+    
+}
+
+
+.subdiv h3{
+    text-align: center;
+    margin-top: 8px;
+    font-size: 22px;
+}
+
+.subdiv hr{
+    width: 250px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
+    opacity: 40%;
+    color: #9c9c9c;
+    
+
+}
+
+.subdiv p{
+    font-size: 14px;
+}
+
+.h4{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+.h4 a{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    text-decoration: none;
+    color: #000000;
+    transition: .7s;
+    
+}
+.h4 a:hover{
+    color: #df0505;
+}
+span{
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.button {
+	display: flex;
+	height: 35px;
+    width: auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 108px;
+	padding: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+	background: #600000;
+	border: none;
+	outline: none;
+	border-radius: 8px;
+	overflow: hidden;
+	font-family: Calibri;
+	font-size: 16px;
+	font-weight: 500;
+    color: rgb(255, 255, 255);
+	cursor: pointer;
+    transition: .9s all ease-in-out;
+}
+
+.button:hover {
+	background: #810000;
+}
+
+.button:active {
+	background: #b94f4f;
+}
+
+a{
+    text-decoration: none;
+}
+
+span .btn_text{
+    text-align: center;
+    font-size: 18px;
+
+}
+
+#edit_profile{
+    width: 900px;
+    margin-left: 100px;
+    text-align: left;
+
+}
+
+#edit_profile h2{
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+#edit_profile h4{
+    margin-left: 40px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#edit_profile hr{
+    width: 800px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.line{
+    margin-left: 50px;
+    width: 800px;
+}
+
+.details{
+    width: 300px;
+    margin-left: 250px;
+    height: 25px;
+    background-color: rgb(249, 226, 226);
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0 , 0, .1);
+    transition: .6s;
+}
+
+.details:hover{
+    background-color: white;
+    border: none;
+}
+.labels h4{
+    margin-top: 20px;
+}
+
+.inputs{
+    margin-top: -340px;
+
+}
+
+.details{
+    margin-bottom: 18px;
+}
+
+.passwds{
+    margin-top: 60px;
+    
+}
+
+.password{
+    display: list-item;
+    margin-bottom: 18px;
+    width: 300px;
+    margin-left: 250px;
+    height: 25px;
+    background-color: rgb(249, 226, 226);
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0 , 0, .1);
+    transition: .6s;
+}
+
+.password:hover{
+    background-color: white;
+    border: none;
+}
+
+#newpw1{
+    margin-bottom: 0px;
+}
+.submit_btn {
+	display: flex;
+	height: 35px;
+    width: auto;
+    margin-top: 5px;
+    margin-left: 800px;
+	padding: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+	background: #600000;
+	border: none;
+	outline: none;
+	border-radius: 8px;
+	overflow: hidden;
+	font-family: Calibri;
+	font-size: 16px;
+	font-weight: 500;
+    color: rgb(255, 255, 255);
+	cursor: pointer;
+    transition: .9s all ease-in-out;
+}
+
+.submit_btn:hover {
+	background: #810000;
+}
+
+.submit_btn:active {
+	background: #b94f4f;
+}
