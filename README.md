@@ -21,9 +21,9 @@
 - **Administrator**: Update news/events and generate donation reports.
 
 
-###- Frontend: HTML, CSS, JavaScript
-###- Backend: PHP 
-###- Database: MySQL 
+##- Frontend: HTML, CSS, JavaScript
+##- Backend: PHP 
+##- Database: MySQL 
 
 ##
 **Donor Web is a system which helps people to increase efficiency of the blood donation process in Sri Lanka. The system provides lot of functionalities to donate blood, request blood, organize blood donation campaigns and donate funds.
